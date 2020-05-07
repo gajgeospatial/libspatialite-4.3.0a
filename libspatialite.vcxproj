@@ -392,14 +392,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -409,14 +409,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -426,14 +426,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -443,14 +443,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -460,14 +460,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -477,14 +477,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -494,14 +494,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -511,14 +511,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -528,14 +528,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -545,14 +545,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;_DEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -564,7 +564,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -573,7 +573,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -585,7 +585,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -594,7 +594,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -606,7 +606,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -615,7 +615,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -627,7 +627,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -636,7 +636,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -648,7 +648,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -657,7 +657,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -669,7 +669,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -678,7 +678,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -690,7 +690,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -699,7 +699,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -711,7 +711,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -720,7 +720,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -732,7 +732,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1700;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -741,7 +741,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -753,7 +753,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;ACCEPT_USE_OF_DEPRECATED_PROJ_API_H;NDEBUG;_WINDOWS;_USRDLL;LIBSPATIALITE_EXPORTS;DLL_EXPORT;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;MSVC_VER=1600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;.\src\headers;..\$(PROJ_DIR)\src;..\$(GEOS_DIR)\include;..\$(GEOS_DIR)\msvc\include;..\$(GEOS_DIR)\msvc\capi;..\$(ICONV_DIR);..\$(SQLITE3_DIR);..\$(FREEXL_DIR)\headers;..\$(ZLIB_DIR);..\$(LIBXML2_DIR)\include</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -762,7 +762,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\$(PROJ_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(GEOS_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(FREEXL_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ICONV_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(SQLITE3_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\$(LIBXML2_DIR)\win32\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Proj.lib;geos_c.lib;freexl.lib;iconv.lib;sqlite3.lib;zlib.lib;libxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
